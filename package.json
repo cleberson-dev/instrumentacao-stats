@@ -1,0 +1,9 @@
+{
+  "name": "instrumentacao-stats",
+  "version": "1.0.0",
+  "description": "Biblioteca para cálculo estatístico na matéria de Instrumentação Eletroeletrônica",
+  "main": "index.js",
+  "repository": "https://github.com/cleberson-dev/instrumentacao-stats",
+  "author": "Cleberson F R Junior <cleberson.dev@gmail.com>",
+  "license": "MIT"
+}
