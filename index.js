@@ -1,1 +1,1 @@
-module.exports = require(`./src/Estatistica`);
+module.exports = require(`./src/InstrumentacaoStats`);
