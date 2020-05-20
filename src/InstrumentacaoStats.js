@@ -62,7 +62,7 @@ class InstrumentacaoStats {
       case 'desc': // Decrescente
         return this.valores.sort((a, b) => b - a);
       default:
-        throw new Error("Ordem não válida", ordensValidas);
+        throw new Error('Ordem não válida', ordensValidas);
     }
   }
 
@@ -71,12 +71,12 @@ class InstrumentacaoStats {
     const incertezaFormatada = this.getIncertezaPadrao().toFixed(4);
     
     console.log(this.getValoresSorteados('asc'));
-    console.log(`Quantidade: ${this.getQuantidade()} itens`);
-    console.log(`Média: ` + this.getMedia());
-    console.log(`Mediana: ` + this.getMediana());
-    console.log(`Moda: ` + this.getModa());
-    console.log(`Variância: ` + this.getVariancia());
-    console.log(`Desvio Padrão: ` + this.getDesvioPadrao());
+    console.log('Quantidade: ${this.getQuantidade()} itens');
+    console.log('Média: ' + this.getMedia());
+    console.log('Mediana: ' + this.getMediana());
+    console.log('Moda: ' + this.getModa());
+    console.log('Variância: ' + this.getVariancia());
+    console.log('Desvio Padrão: ' + this.getDesvioPadrao());
     console.log(`Incerteza Padrão: ${mediaFormatada} ± ${incertezaFormatada}`);
   }
 }
