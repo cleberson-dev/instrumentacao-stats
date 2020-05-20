@@ -71,7 +71,7 @@ class InstrumentacaoStats {
     const incertezaFormatada = this.getIncertezaPadrao().toFixed(4);
     
     console.log(this.getValoresSorteados('asc'));
-    console.log('Quantidade: ${this.getQuantidade()} itens');
+    console.log(`Quantidade: ${this.getQuantidade()} itens`);
     console.log('Média: ' + this.getMedia());
     console.log('Mediana: ' + this.getMediana());
     console.log('Moda: ' + this.getModa());
