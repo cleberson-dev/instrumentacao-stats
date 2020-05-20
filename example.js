@@ -3,7 +3,7 @@ const InstrumentacaoStats = require('./src/InstrumentacaoStats');
 
 
 
-let cpd = 80577;
+let cpd = process.argv[2];
 // A função de formatação .toFixed retorna uma String
 cpd = Number((cpd * Math.pow(10, -4)).toFixed(4));  
 
